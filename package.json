@@ -1,0 +1,33 @@
+{
+  "name": "cdktn-vitest",
+  "version": "1.0.0",
+  "description": "Custom matchers library for Vitest",
+  "license": "MIT",
+  "author": "Aníbal Jorquera<ajorquera.cornejo@gmail.com>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.2",
+    "cdktn": "^0.22.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "peerDependencies": {
+    "cdktn": ">= 0.22.0",
+    "vitest": ">= 4.0"
+  }
+}

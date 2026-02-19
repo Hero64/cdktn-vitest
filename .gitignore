@@ -1,0 +1,30 @@
+# Build output
+lib
+
+# Dependencies
+node_modules
+pnpm-lock.yaml
+
+# Test coverage
+coverage
+.nyc_output
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp
+temp
+*.tmp
