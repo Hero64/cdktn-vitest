@@ -1,5 +1,7 @@
 # cdktn-vitest
 
+> ⚠️ **This repository has been deprecated.** Please use the official implementation at [cdktn-io/cdktn-vitest](https://github.com/cdktn-io/cdktn-vitest) instead.
+
 cdktn matchers library for Vitest.
 
 This library provides a set of matchers that allow you to write clear and expressive tests for your Terraform infrastructure code written with CDKTN.
